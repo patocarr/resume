@@ -1,0 +1,260 @@
+%% LyX 1.3 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[10pt,oneside,english]{res}
+%\usepackage{times}
+%\usepackage{setspace}
+%%\usepackage[T1]{fontenc}
+%\usepackage[latin1]{inputenc}
+%\setcounter{secnumdepth}{3}
+%\setcounter{tocdepth}{3}
+%\renewcommand{\baselinestretch}{1.0}
+\IfFileExists{url.sty}{\usepackage{url}}
+                      {\newcommand{\url}{\texttt}}
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\date{}
+
+\usepackage{babel}
+\makeatother
+
+\begin{document}
+
+\name{Patricio Carr}
+\address{\bf Tux Engineering, Inc.\\Simi Valley, CA, US\\E-mail: pat@tuxengineering.com\\Website: http://tuxengineering.com}
+\address{}
+
+\begin{resume}
+
+\section{Technical Skills}
+
+\begin{itemize}
+\item ASIC \& FPGA digital design and verification. Verilog HDL, VHDL, Vera. Xilinx Vivado \& ISE. Actel Libero. Synplicity. ModelSim.
+\item Embedded firmware development and verification. Micro assembly languages Motorola 68xx, Intel x86, Microchip PIC. NXP Kinetis microcontrollers.
+\item Software: C, C++ programming. Python, Tcl, Perl, Ruby, Bash/csh. 
+\item Unix tools. GNU utilities (make, sed, awk, etc). Remote access (vnc,
+ssh, rsync, etc).
+\item Source code Revision Control Systems (Git, SVN, CVS, SourceSafe).
+\item Linux systems administration. Installation, migration, interoperability, kernel compilation, emulation and virtualization.
+\item High density PCB design.
+\item Web design \& development. HTML, Javascript, CSS. Backend PHP, Perl, SQL, SSI.
+\end{itemize}
+
+
+\section{Work Experience}
+
+\paragraph{Contractor, FPGA design \& verification 05/2005 to date}
+\begin{description}
+\item Innovative Integration Inc., Camarillo, CA
+\item Summary: Work on developing features for new products, involving digital design, architecture, simulation \& verification, timing closure and IP bring up.
+\end{description}
+\begin{itemize}
+\item Design PCI Express core based DMA IP on Xilinx Virtex5, Virtex6, Kintex-7 \& Kintex-Ultrascale. 1-4-8 lanes, Gen1, Gen2 \& Gen3 PCIe.
+\item Implement Multichannel DMA IP on Zynq ARM Processor System.
+\item PCI core interface for packet-based DMA engine streaming over 400MB/s sustained. 
+\item Develop Virtual FIFO IP with DDR/DDR2 backend memory. 
+\item Design front-end interfaces to several ADC \& DAC chips up to 14-bit 400MS/s.
+\item Design high speed interconnecting mesh through 2 Virtex II-Pro FPGAs using four RocketIO links.
+\item Interface with Texas Instruments DSPs TMS320C6713 \& C6416 through EMIF \& HPI. Implement interfaces to SRAM, EEPROM \& DRAM memories.
+\item Develop module- \& top-level self-checking testbenches in VHDL \& Verilog.
+\item Automate implementation flow to run scripted using Tcl.
+\item Install and administer Linux servers for logic builds and central Git source control.
+\end{itemize}
+
+\paragraph{Contractor, Linux programming 02/2017 to date}
+\begin{description}
+\item Rooi Digital, Inc., Westlake Village, CA
+\end{description}
+\begin{itemize}
+\item Develop automated Bluetooth interface to collect readings from diverse medical devices, controlled from Python. Running embedded Linux on NXP i.Mx6 SoM.
+\end{itemize}
+
+\paragraph{Contractor, Embedded C programming 05/2017 to 07/2017}
+\begin{description}
+\item John Hopkins University
+\item Summary: Real time data recording to SD card on embedded microcontroller.
+\end{description}
+\begin{itemize}
+	\item Design and implement recording of real time audio data to SD card using FatFS, running on NXP Kinetis microcontroller.
+\end{itemize}
+
+\paragraph{Contractor, Linux programming 10/2016 to 05/2017}
+\begin{description}
+\item Phase Margin, Inc., Chatsworth, CA
+\item Summary: Develop self-balancing redundant LTE router with WiFi access point.
+\end{description}
+\begin{itemize}
+\item Design and implement network programming to monitor and control up to 3 LTE modems on Linux embedded system using Python.
+\end{itemize}
+
+\paragraph{Consultant, VHDL debugging 01/2006}
+\begin{description}
+\item FO Engineering, Santa Clarita, CA
+\end{description}
+\begin{itemize}
+\item Bring-up SPI design of a control/adquisition daughter board for water desalination system. Xilinx 9500XL CPLD. ISE 7.1.
+\end{itemize}
+
+\paragraph{Contractor, VHDL design \& verification 11/2004 - 12/2004}
+\begin{description}
+\item Innovative Integration Inc., Simi Valley, CA
+\end{description}
+\begin{itemize}
+\item Customize VHDL design of existing real time DSP-based capture board.
+Xilinx Spartan3 FPGA.
+\item Functional \& Hardware verification of FPDP interface.
+\end{itemize}
+
+\paragraph{Contractor, VHDL verification 08/2004 - 11/2004}
+\begin{description}
+\item APK Engineering Inc., Westlake Village, CA
+\end{description}
+\begin{itemize}
+\item Verification of real time A/D capture board. Xilinx Virtex II-Pro
+FPGA.
+\item Schematic implementation of VHDL top level.
+\item Custom Ring-Laser-Gyro Test sets. Gyro Control Board. VHDL design.
+\item Debug and fix I2C interface implementation. Actel FPGA. Synplicity. Modelsim.
+\item VHDL Design of additional features for a laser controller board.
+\item Add new features to existing product: A/D interfaces, Master \&
+Slave SPI, PreAmps,
+\item Web site redesign.
+\end{itemize}
+
+\paragraph{Employee, Sr. Digital Design Engineer 10/2001 - 07/2004}
+\begin{description}
+\item National Semiconductor Corp., Calabasas, CA
+\end{description}
+\begin{itemize}
+\item Verilog \& Vera verification of Ultra Low Power Gigabit Ethernet ASICs.
+\item Firmware design, verification and testing on software testbench and
+on actual silicon, for embedded 68HC11 processor. Implementation of
+new firmware features like programmable speed fallback under high
+error conditions.
+\item Vera environment. Main maintainer of testbench environment for several
+projects. Design additions to testbench environment to ease verification
+approach. Port simulation environment to several new related projects
+minimizing impact on simulation code. Testing and verification of
+testbench environment.
+\item Management of Perl, Ruby, shell scripts to run nightly regressions.
+In-house tools development.
+\end{itemize}
+
+\paragraph{Contractor, Digital Design Engineer 08/2000 - 10/2001}
+\begin{description}
+\item National Semiconductor Corp., Calabasas, CA
+\end{description}
+\begin{itemize}
+\item Verilog verification of Ultra Low Power Gigabit Ethernet ASIC.
+\item Block and module level testing for datapath sub-system and DSP.
+\item Firmware design, testing and verification on software testbench. Traffic
+BIST firmware module implementation.
+\item RTL block module design and verification: variable depth multi-port
+datapath asynchronous FIFO.
+\item Vera environment. Enhanced simulation environment for easier porting
+to multi port design.
+\item Management of Perl/csh scripts to run sim regressions.
+\end{itemize}
+
+\paragraph{Contractor, PCB design 05/2000 - 10/2000}
+\begin{description}
+\item APK Engineering Inc., Agoura Hills, CA
+\end{description}
+\begin{itemize}
+\item Designe 8 layer PCB for PCI-based board in OrCAD.
+\item FPGA, DSP and PCI bridge chips.
+\end{itemize}
+
+\paragraph{Employee, Firmware programming 07/1997 - 04/2000}
+\begin{description}
+\item Scanner Protection System SRL., Puerto Madryn, Argentina
+\end{description}
+\begin{itemize}
+\item Design, testing, real-time emulation and verification of firmware
+code for Microchip's MCUs, using C and assembly for PICs.
+\item PCB design of most company's products, including alarm panels, remote
+controls, keyboards, etc.
+\item Design, development and deployment of company's home page.
+\item Graphic design of user's manuals and informative booklets.
+\end{itemize}
+
+\paragraph{Contractor, ASIC Verification 10/1996 - 04/1997}
+\begin{description}
+\item APK Engineering Inc., Agoura Hills, CA
+\end{description}
+
+\begin{itemize}
+\item Central Processor Unit Redesign and Conversion into a FPGA.
+\item Schematic capture. Testbench design \& development to verify state-of-the-art floating point microprocessor.
+\item Design of RAM behavioral models in HDL Verilog.
+\item Test and verification of microprocessor instructions, operating modes and peripherals.
+\item Test patterns generation in C language for arena screen project.
+\item Company website design \& development.
+\end{itemize}
+
+\paragraph{Consultant, Software development 03/1988 - 07/1996}
+\begin{description}
+\item Several clients. Rosario, Argentina
+\end{description}
+
+\begin{itemize}
+\item Design, development and testing of relational database systems for
+management. FoxPro, SQL.
+\item Design and development of minilab management system.
+\item HTML design and development. Graphic design and photo retouching.
+\item Device driver programming in C/C++. Assembly programming for low-level
+access to hard drives.
+\end{itemize}
+
+\paragraph{Part-time Computer Instructor 03/1995 - 6/1996}
+\begin{description}
+\item Colegio Normal Nro 1 (High school level). 
+Entry level computing courses to students and adults. Offimatics.
+\end{description}
+
+\section{Education}
+
+
+\subsubsection{College}
+\begin{description}
+	\item Universidad Nacional de Rosario 03/1991 - 12/1992 
+	\item Rosario, Argentina
+	\item Associates Degree in Computer Science. (T\'ecnico Superior en Computaci\'on)
+\end{description}
+
+
+\subsubsection{High School:}
+\begin{description}
+	\item Instituto Polit\'ecnico Superior \char`\"{}General San Mart\'in\char`\"{} 03/1983 - 12/1987
+	\item Rosario, Argentina
+\end{description}
+
+
+
+\section{Special Skills}
+
+
+\subsubsection{Spoken languages:}
+
+\begin{itemize}
+\item Spanish (fluent),
+\item English (fluent),
+\item French (basic), Alliance Fran\c{c}aise 04/2005-06/2006, Los Angeles,
+\end{itemize}
+
+\subsubsection{Attended seminars:}
+
+\begin{itemize}
+\item Java Premier. LAX, CA. 12/1996
+\item Microchip Workshop '98. Buenos Aires, Argentina. 10/1998
+\item Microchip Workshop '99. Buenos Aires, Argentina. 10/1999
+\item Synopsys 2003 Synthesis and Timing workshop. Thousand Oaks, CA. 03/2003
+\item Novas Software. Debussy. Calabasas, CA. 08/2003.
+\item Wind River. Real-Time Linux solutions for embedded systems. Woodland
+Hills, CA. 07/2005
+\item Avnet. Programming Xilinx Zynq SoCs. Woodland Hills, CA. 4/2011.
+\end{itemize}
+
+\end{resume}
+\end{document}
+
